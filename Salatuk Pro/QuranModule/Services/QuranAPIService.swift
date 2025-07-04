@@ -13,7 +13,7 @@ class QuranAPIService: QuranAPIProtocol {
     func fetchSurahs() -> AnyPublisher<[Surah], Error> {
         let url = baseURL.appendingPathComponent("surah")
         return session.dataTaskPublisher(for: url)
-            .map(\.$data)
+            .map(\.data)
             .decode(type: SurahListResponse.self, decoder: JSONDecoder())
             .map { $0.data.map { Surah(id: $0.number,
                                        name: $0.name,
@@ -26,7 +26,7 @@ class QuranAPIService: QuranAPIProtocol {
     func fetchAyat(forSurah number: Int) -> AnyPublisher<[Ayah], Error> {
         let url = baseURL.appendingPathComponent("surah/\(number)/ar.uthmani")
         return session.dataTaskPublisher(for: url)
-            .map(\.$data)
+            .map(\.data)
             .decode(type: AyahListResponse.self, decoder: JSONDecoder())
             .map { $0.data.ayahs.map { Ayah(id: $0.number,
                                             text: $0.text,
@@ -38,7 +38,7 @@ class QuranAPIService: QuranAPIProtocol {
         // Placeholder endpoint; adjust with real tafsir API
         let url = URL(string: "https://api.quran.com/api/v4/tafsirs/by_ayah/\(ayah)?tafsir_id=169")!
         return session.dataTaskPublisher(for: url)
-            .map(\.$data)
+            .map(\.data)
             .decode(type: TafsirResponse.self, decoder: JSONDecoder())
             .tryMap { resp in
                 guard let first = resp.tafsirs.first else {
