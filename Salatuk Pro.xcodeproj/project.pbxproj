@@ -1,0 +1,1185 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		301888AD2DF4C7ED004540A2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30B38E352DDF95B5006276E1 /* GoogleService-Info.plist */; };
+		301888AE2DF4C7F1004540A2 /* MosqueMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30867E772DDF1E8000DC99AF /* MosqueMapView.swift */; };
+		301888B02DF4C7FB004540A2 /* adkarsl1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30867E712DDF157B00DC99AF /* adkarsl1.swift */; };
+		301888B12DF4C7FE004540A2 /* adkarsl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30867E702DDF157B00DC99AF /* adkarsl2.swift */; };
+		301888B22DF4C801004540A2 /* GpsBoslaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308804092DCAE63400315319 /* GpsBoslaView.swift */; };
+		301888B32DF4C804004540A2 /* ZakatCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 308804072DCAE61F00315319 /* ZakatCalculatorView.swift */; };
+		301888B52DF4C809004540A2 /* DhikrType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30867E6B2DDF11F800DC99AF /* DhikrType.swift */; };
+		301888B62DF4C80D004540A2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783CC2DC03AF000A972C0 /* ContentView.swift */; };
+		301888B72DF4C818004540A2 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3089B7A52DC40DCC00B61A86 /* CardView.swift */; };
+		301888B92DF4C81F004540A2 /* My App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783CD2DC03AF000A972C0 /* My App.swift */; };
+		301888BA2DF4C827004540A2 /* AdhanObjc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783B82DC03AEF00A972C0 /* AdhanObjc.swift */; };
+		301888BB2DF4C82A004540A2 /* PrayerTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783B92DC03AEF00A972C0 /* PrayerTimes.swift */; };
+		301888BC2DF4C82D004540A2 /* Qibla.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C72DC03AEF00A972C0 /* Qibla.swift */; };
+		301888BD2DF4C82F004540A2 /* SunnahTimes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783CE2DC03AF000A972C0 /* SunnahTimes.swift */; };
+		301888BE2DF4C835004540A2 /* SolarTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783B52DC03AEF00A972C0 /* SolarTime.swift */; };
+		301888BF2DF4C838004540A2 /* SolarCoordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783B62DC03AEF00A972C0 /* SolarCoordinates.swift */; };
+		301888C02DF4C83B004540A2 /* Astronomical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783B72DC03AEF00A972C0 /* Astronomical.swift */; };
+		301888C12DF4C83E004540A2 /* entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 300783C82DC03AF000A972C0 /* entitlements.plist */; };
+		301888C22DF4C844004540A2 /* DateUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C52DC03AEF00A972C0 /* DateUtilities.swift */; };
+		301888C32DF4C846004540A2 /* MathUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C62DC03AEF00A972C0 /* MathUtilities.swift */; };
+		301888C42DF4C84B004540A2 /* CalculationMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783BB2DC03AEF00A972C0 /* CalculationMethod.swift */; };
+		301888C52DF4C84E004540A2 /* Rouding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783BC2DC03AEF00A972C0 /* Rouding.swift */; };
+		301888C62DF4C851004540A2 /* HighLatitudeRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783BD2DC03AEF00A972C0 /* HighLatitudeRule.swift */; };
+		301888C72DF4C853004540A2 /* PrayerAdjustment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783BE2DC03AEF00A972C0 /* PrayerAdjustment.swift */; };
+		301888C82DF4C856004540A2 /* Madhab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783BF2DC03AEF00A972C0 /* Madhab.swift */; };
+		301888C92DF4C859004540A2 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C02DC03AEF00A972C0 /* Prayer.swift */; };
+		301888CA2DF4C85C004540A2 /* CalculationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C12DC03AEF00A972C0 /* CalculationParameters.swift */; };
+		301888CB2DF4C85E004540A2 /* Coordinates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C22DC03AEF00A972C0 /* Coordinates.swift */; };
+		301888CC2DF4C861004540A2 /* Shafaq.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783C32DC03AEF00A972C0 /* Shafaq.swift */; };
+		301888CD2DF4C867004540A2 /* azan.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 30B38E3A2DDFAAAF006276E1 /* azan.m4a */; };
+		301888CE2DF4C869004540A2 /* click.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 30B38E3B2DDFAAB0006276E1 /* click.mp3 */; };
+		301888CF2DF4C86E004540A2 /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783CA2DC03AF000A972C0 /* Angle.swift */; };
+		301888D02DF4C870004540A2 /* Minute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300783CB2DC03AF000A972C0 /* Minute.swift */; };
+		301888D12DF4C874004540A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300783952DC039C400A972C0 /* Assets.xcassets */; };
+		301888D22DF4C87F004540A2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300783722DC0395500A972C0 /* Preview Assets.xcassets */; };
+		301888D82DF4C8E0004540A2 /* Salatuk ProTests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 301888912DF4C736004540A2 /* Salatuk ProTests.xctest */; };
+		301888D92DF4C8E2004540A2 /* Salatuk ProUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 3018889B2DF4C737004540A2 /* Salatuk ProUITests.xctest */; };
+		301889222DF4DA87004540A2 /* Salatuk_ProUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018891F2DF4D0FE004540A2 /* Salatuk_ProUITestsLaunchTests.swift */; };
+		301889232DF4DA8C004540A2 /* Salatuk_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018891E2DF4D0FE004540A2 /* Salatuk_ProUITests.swift */; };
+		301889242DF4DA92004540A2 /* Salatuk_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3018891B2DF4D0ED004540A2 /* Salatuk_ProTests.swift */; };
+		307461732E035EA000021EDB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784122DC03CA400A972C0 /* AudioToolbox.framework */; };
+		307461762E035EA200021EDB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784072DC03C1300A972C0 /* AVFoundation.framework */; };
+		307461782E035EA400021EDB /* CoreHaptics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 308804052DCAE59A00315319 /* CoreHaptics.framework */; };
+		3074617A2E035EA600021EDB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3007840E2DC03C6F00A972C0 /* CoreLocation.framework */; };
+		3074617C2E035EA900021EDB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3007840B2DC03C3300A972C0 /* Foundation.framework */; };
+		3074617E2E035EAB00021EDB /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784142DC03CB000A972C0 /* MapKit.framework */; };
+		307461802E035EAD00021EDB /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784032DC03BD300A972C0 /* SwiftUI.framework */; };
+		307461822E035EB000021EDB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784052DC03BE500A972C0 /* UIKit.framework */; };
+		307461842E035EB300021EDB /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 300784102DC03C8800A972C0 /* UserNotifications.framework */; };
+		307461882E036D1300021EDB /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3074618A2E036D1300021EDB /* Localizable.strings */; };
+		307F03612E021288003962EB /* DhikrDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 307F03602E021287003962EB /* DhikrDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		301888922DF4C736004540A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300783602DC0395300A972C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301888812DF4C734004540A2;
+			remoteInfo = "Salatuk Pro";
+		};
+		3018889C2DF4C737004540A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 300783602DC0395300A972C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 301888812DF4C734004540A2;
+			remoteInfo = "Salatuk Pro";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		300783722DC0395500A972C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		300783952DC039C400A972C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300783992DC03AEC00A972C0 /* Salatuk_Pro-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Salatuk_Pro-Bridging-Header.h"; sourceTree = "<group>"; };
+		300783B52DC03AEF00A972C0 /* SolarTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarTime.swift; sourceTree = "<group>"; };
+		300783B62DC03AEF00A972C0 /* SolarCoordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolarCoordinates.swift; sourceTree = "<group>"; };
+		300783B72DC03AEF00A972C0 /* Astronomical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Astronomical.swift; sourceTree = "<group>"; };
+		300783B82DC03AEF00A972C0 /* AdhanObjc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdhanObjc.swift; sourceTree = "<group>"; };
+		300783B92DC03AEF00A972C0 /* PrayerTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTimes.swift; sourceTree = "<group>"; };
+		300783BB2DC03AEF00A972C0 /* CalculationMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationMethod.swift; sourceTree = "<group>"; };
+		300783BC2DC03AEF00A972C0 /* Rouding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rouding.swift; sourceTree = "<group>"; };
+		300783BD2DC03AEF00A972C0 /* HighLatitudeRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighLatitudeRule.swift; sourceTree = "<group>"; };
+		300783BE2DC03AEF00A972C0 /* PrayerAdjustment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerAdjustment.swift; sourceTree = "<group>"; };
+		300783BF2DC03AEF00A972C0 /* Madhab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Madhab.swift; sourceTree = "<group>"; };
+		300783C02DC03AEF00A972C0 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		300783C12DC03AEF00A972C0 /* CalculationParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculationParameters.swift; sourceTree = "<group>"; };
+		300783C22DC03AEF00A972C0 /* Coordinates.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinates.swift; sourceTree = "<group>"; };
+		300783C32DC03AEF00A972C0 /* Shafaq.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Shafaq.swift; sourceTree = "<group>"; };
+		300783C52DC03AEF00A972C0 /* DateUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateUtilities.swift; sourceTree = "<group>"; };
+		300783C62DC03AEF00A972C0 /* MathUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathUtilities.swift; sourceTree = "<group>"; };
+		300783C72DC03AEF00A972C0 /* Qibla.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Qibla.swift; sourceTree = "<group>"; };
+		300783C82DC03AF000A972C0 /* entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = entitlements.plist; sourceTree = "<group>"; };
+		300783CA2DC03AF000A972C0 /* Angle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Angle.swift; sourceTree = "<group>"; };
+		300783CB2DC03AF000A972C0 /* Minute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Minute.swift; sourceTree = "<group>"; };
+		300783CC2DC03AF000A972C0 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		300783CD2DC03AF000A972C0 /* My App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "My App.swift"; sourceTree = "<group>"; };
+		300783CE2DC03AF000A972C0 /* SunnahTimes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SunnahTimes.swift; sourceTree = "<group>"; };
+		300783D02DC03AF000A972C0 /* Adhan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Adhan.h; sourceTree = "<group>"; };
+		300784032DC03BD300A972C0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		300784052DC03BE500A972C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		300784072DC03C1300A972C0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3007840B2DC03C3300A972C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3007840E2DC03C6F00A972C0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		300784102DC03C8800A972C0 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		300784122DC03CA400A972C0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		300784142DC03CB000A972C0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		301888822DF4C734004540A2 /* Salatuk Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Salatuk Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		301888912DF4C736004540A2 /* Salatuk ProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salatuk ProTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3018889B2DF4C737004540A2 /* Salatuk ProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Salatuk ProUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3018891B2DF4D0ED004540A2 /* Salatuk_ProTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salatuk_ProTests.swift; sourceTree = "<group>"; };
+		3018891E2DF4D0FE004540A2 /* Salatuk_ProUITests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salatuk_ProUITests.swift; sourceTree = "<group>"; };
+		3018891F2DF4D0FE004540A2 /* Salatuk_ProUITestsLaunchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Salatuk_ProUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		307457AF2DFB01F50093D73A /* Salatuk-Pro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Salatuk-Pro-Info.plist"; sourceTree = SOURCE_ROOT; };
+		307461892E036D1300021EDB /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		3074618B2E036D2000021EDB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		307F03602E021287003962EB /* DhikrDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhikrDetailView.swift; sourceTree = "<group>"; };
+		30867E6B2DDF11F800DC99AF /* DhikrType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DhikrType.swift; sourceTree = "<group>"; };
+		30867E702DDF157B00DC99AF /* adkarsl2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adkarsl2.swift; sourceTree = "<group>"; };
+		30867E712DDF157B00DC99AF /* adkarsl1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = adkarsl1.swift; sourceTree = "<group>"; };
+		30867E772DDF1E8000DC99AF /* MosqueMapView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MosqueMapView.swift; sourceTree = "<group>"; };
+		308804052DCAE59A00315319 /* CoreHaptics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreHaptics.framework; path = System/Library/Frameworks/CoreHaptics.framework; sourceTree = SDKROOT; };
+		308804072DCAE61F00315319 /* ZakatCalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZakatCalculatorView.swift; sourceTree = "<group>"; };
+		308804092DCAE63400315319 /* GpsBoslaView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GpsBoslaView.swift; sourceTree = "<group>"; };
+		3089B7A52DC40DCC00B61A86 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		30B38E352DDF95B5006276E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		30B38E3A2DDFAAAF006276E1 /* azan.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = azan.m4a; sourceTree = "<group>"; };
+		30B38E3B2DDFAAB0006276E1 /* click.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3018887F2DF4C734004540A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				307461842E035EB300021EDB /* UserNotifications.framework in Frameworks */,
+				307461802E035EAD00021EDB /* SwiftUI.framework in Frameworks */,
+				307461782E035EA400021EDB /* CoreHaptics.framework in Frameworks */,
+				3074617E2E035EAB00021EDB /* MapKit.framework in Frameworks */,
+				307461762E035EA200021EDB /* AVFoundation.framework in Frameworks */,
+				3074617C2E035EA900021EDB /* Foundation.framework in Frameworks */,
+				3074617A2E035EA600021EDB /* CoreLocation.framework in Frameworks */,
+				307461732E035EA000021EDB /* AudioToolbox.framework in Frameworks */,
+				307461822E035EB000021EDB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3018888E2DF4C736004540A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301888982DF4C737004540A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3007835F2DC0395300A972C0 = {
+			isa = PBXGroup;
+			children = (
+				3018891D2DF4D0FD004540A2 /* Salatuk ProUITests */,
+				3018891A2DF4D0ED004540A2 /* Salatuk ProTests */,
+				30B38E352DDF95B5006276E1 /* GoogleService-Info.plist */,
+				3007836A2DC0395300A972C0 /* Salatuk Pro */,
+				300783692DC0395300A972C0 /* Products */,
+				300784022DC03BD100A972C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		300783692DC0395300A972C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				301888822DF4C734004540A2 /* Salatuk Pro.app */,
+				301888912DF4C736004540A2 /* Salatuk ProTests.xctest */,
+				3018889B2DF4C737004540A2 /* Salatuk ProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3007836A2DC0395300A972C0 /* Salatuk Pro */ = {
+			isa = PBXGroup;
+			children = (
+				307F03602E021287003962EB /* DhikrDetailView.swift */,
+				307457AF2DFB01F50093D73A /* Salatuk-Pro-Info.plist */,
+				30867E772DDF1E8000DC99AF /* MosqueMapView.swift */,
+				30867E6F2DDF155D00DC99AF /* xd */,
+				308804092DCAE63400315319 /* GpsBoslaView.swift */,
+				308804072DCAE61F00315319 /* ZakatCalculatorView.swift */,
+				30867E6B2DDF11F800DC99AF /* DhikrType.swift */,
+				300783CC2DC03AF000A972C0 /* ContentView.swift */,
+				3089B7A52DC40DCC00B61A86 /* CardView.swift */,
+				300783CD2DC03AF000A972C0 /* My App.swift */,
+				300783D02DC03AF000A972C0 /* Adhan.h */,
+				300783B82DC03AEF00A972C0 /* AdhanObjc.swift */,
+				300783B92DC03AEF00A972C0 /* PrayerTimes.swift */,
+				300783C72DC03AEF00A972C0 /* Qibla.swift */,
+				300783CE2DC03AF000A972C0 /* SunnahTimes.swift */,
+				300783B42DC03AEF00A972C0 /* Astronomy */,
+				300783C82DC03AF000A972C0 /* entitlements.plist */,
+				300783C42DC03AEF00A972C0 /* Extensions */,
+				300783BA2DC03AEF00A972C0 /* Models */,
+				3007839B2DC03AEE00A972C0 /* Resources */,
+				300783C92DC03AF000A972C0 /* Units */,
+				300783952DC039C400A972C0 /* Assets.xcassets */,
+				300783712DC0395500A972C0 /* Preview Content */,
+				300783992DC03AEC00A972C0 /* Salatuk_Pro-Bridging-Header.h */,
+				3074618A2E036D1300021EDB /* Localizable.strings */,
+			);
+			path = "Salatuk Pro";
+			sourceTree = "<group>";
+		};
+		300783712DC0395500A972C0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				300783722DC0395500A972C0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3007839B2DC03AEE00A972C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				307461902E036E5600021EDB /* Base.lproj */,
+				3074618C2E036D9F00021EDB /* en.lproj */,
+				30963D4E2DFA3DD3008A4534 /* ar.lproj */,
+				30B38E3A2DDFAAAF006276E1 /* azan.m4a */,
+				30B38E3B2DDFAAB0006276E1 /* click.mp3 */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		300783B42DC03AEF00A972C0 /* Astronomy */ = {
+			isa = PBXGroup;
+			children = (
+				300783B52DC03AEF00A972C0 /* SolarTime.swift */,
+				300783B62DC03AEF00A972C0 /* SolarCoordinates.swift */,
+				300783B72DC03AEF00A972C0 /* Astronomical.swift */,
+			);
+			path = Astronomy;
+			sourceTree = "<group>";
+		};
+		300783BA2DC03AEF00A972C0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				300783BB2DC03AEF00A972C0 /* CalculationMethod.swift */,
+				300783BC2DC03AEF00A972C0 /* Rouding.swift */,
+				300783BD2DC03AEF00A972C0 /* HighLatitudeRule.swift */,
+				300783BE2DC03AEF00A972C0 /* PrayerAdjustment.swift */,
+				300783BF2DC03AEF00A972C0 /* Madhab.swift */,
+				300783C02DC03AEF00A972C0 /* Prayer.swift */,
+				300783C12DC03AEF00A972C0 /* CalculationParameters.swift */,
+				300783C22DC03AEF00A972C0 /* Coordinates.swift */,
+				300783C32DC03AEF00A972C0 /* Shafaq.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		300783C42DC03AEF00A972C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				300783C52DC03AEF00A972C0 /* DateUtilities.swift */,
+				300783C62DC03AEF00A972C0 /* MathUtilities.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		300783C92DC03AF000A972C0 /* Units */ = {
+			isa = PBXGroup;
+			children = (
+				300783CA2DC03AF000A972C0 /* Angle.swift */,
+				300783CB2DC03AF000A972C0 /* Minute.swift */,
+			);
+			path = Units;
+			sourceTree = "<group>";
+		};
+		300784022DC03BD100A972C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				308804052DCAE59A00315319 /* CoreHaptics.framework */,
+				300784142DC03CB000A972C0 /* MapKit.framework */,
+				300784122DC03CA400A972C0 /* AudioToolbox.framework */,
+				300784102DC03C8800A972C0 /* UserNotifications.framework */,
+				3007840E2DC03C6F00A972C0 /* CoreLocation.framework */,
+				3007840B2DC03C3300A972C0 /* Foundation.framework */,
+				300784072DC03C1300A972C0 /* AVFoundation.framework */,
+				300784052DC03BE500A972C0 /* UIKit.framework */,
+				300784032DC03BD300A972C0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3018891A2DF4D0ED004540A2 /* Salatuk ProTests */ = {
+			isa = PBXGroup;
+			children = (
+				3018891B2DF4D0ED004540A2 /* Salatuk_ProTests.swift */,
+			);
+			path = "Salatuk ProTests";
+			sourceTree = "<group>";
+		};
+		3018891D2DF4D0FD004540A2 /* Salatuk ProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3018891E2DF4D0FE004540A2 /* Salatuk_ProUITests.swift */,
+				3018891F2DF4D0FE004540A2 /* Salatuk_ProUITestsLaunchTests.swift */,
+			);
+			path = "Salatuk ProUITests";
+			sourceTree = "<group>";
+		};
+		3074618C2E036D9F00021EDB /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		307461902E036E5600021EDB /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
+		30867E6F2DDF155D00DC99AF /* xd */ = {
+			isa = PBXGroup;
+			children = (
+				30867E712DDF157B00DC99AF /* adkarsl1.swift */,
+				30867E702DDF157B00DC99AF /* adkarsl2.swift */,
+			);
+			path = xd;
+			sourceTree = "<group>";
+		};
+		30963D4E2DFA3DD3008A4534 /* ar.lproj */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ar.lproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		301888812DF4C734004540A2 /* Salatuk Pro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301888A32DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk Pro" */;
+			buildPhases = (
+				3018887E2DF4C734004540A2 /* Sources */,
+				3018887F2DF4C734004540A2 /* Frameworks */,
+				301888802DF4C734004540A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301888E92DF4CF36004540A2 /* PBXTargetDependency */,
+				301888EB2DF4CF36004540A2 /* PBXTargetDependency */,
+				301888ED2DF4CF36004540A2 /* PBXTargetDependency */,
+				301888EF2DF4CF36004540A2 /* PBXTargetDependency */,
+				301888F12DF4CF36004540A2 /* PBXTargetDependency */,
+				301888F32DF4CF36004540A2 /* PBXTargetDependency */,
+				301888F52DF4CF36004540A2 /* PBXTargetDependency */,
+				301888F72DF4CF36004540A2 /* PBXTargetDependency */,
+				301888F92DF4CF36004540A2 /* PBXTargetDependency */,
+				301888FB2DF4CF36004540A2 /* PBXTargetDependency */,
+				301888FD2DF4CF36004540A2 /* PBXTargetDependency */,
+				301888FF2DF4CF36004540A2 /* PBXTargetDependency */,
+				301889012DF4CF36004540A2 /* PBXTargetDependency */,
+				301889032DF4CF36004540A2 /* PBXTargetDependency */,
+				301889052DF4CF36004540A2 /* PBXTargetDependency */,
+				301889072DF4CF36004540A2 /* PBXTargetDependency */,
+				301889092DF4CF36004540A2 /* PBXTargetDependency */,
+				3018890B2DF4CF36004540A2 /* PBXTargetDependency */,
+				3018890D2DF4CF36004540A2 /* PBXTargetDependency */,
+				3018890F2DF4CF36004540A2 /* PBXTargetDependency */,
+				301889112DF4CF36004540A2 /* PBXTargetDependency */,
+				301889132DF4CF36004540A2 /* PBXTargetDependency */,
+				301889152DF4CF36004540A2 /* PBXTargetDependency */,
+				301889172DF4CF36004540A2 /* PBXTargetDependency */,
+				301888E52DF4CF1E004540A2 /* PBXTargetDependency */,
+				301888E32DF4CEAE004540A2 /* PBXTargetDependency */,
+			);
+			name = "Salatuk Pro";
+			packageProductDependencies = (
+			);
+			productName = "Salatuk Pro";
+			productReference = 301888822DF4C734004540A2 /* Salatuk Pro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		301888902DF4C736004540A2 /* Salatuk ProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301888A62DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk ProTests" */;
+			buildPhases = (
+				3018888D2DF4C736004540A2 /* Sources */,
+				3018888E2DF4C736004540A2 /* Frameworks */,
+				3018888F2DF4C736004540A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				301888932DF4C736004540A2 /* PBXTargetDependency */,
+			);
+			name = "Salatuk ProTests";
+			productName = "Salatuk ProTests";
+			productReference = 301888912DF4C736004540A2 /* Salatuk ProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3018889A2DF4C737004540A2 /* Salatuk ProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 301888A92DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk ProUITests" */;
+			buildPhases = (
+				301888972DF4C737004540A2 /* Sources */,
+				301888982DF4C737004540A2 /* Frameworks */,
+				301888992DF4C737004540A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3018889D2DF4C737004540A2 /* PBXTargetDependency */,
+			);
+			name = "Salatuk ProUITests";
+			productName = "Salatuk ProUITests";
+			productReference = 3018889B2DF4C737004540A2 /* Salatuk ProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300783602DC0395300A972C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = NO;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					301888812DF4C734004540A2 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					301888902DF4C736004540A2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 301888812DF4C734004540A2;
+					};
+					3018889A2DF4C737004540A2 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 301888812DF4C734004540A2;
+					};
+				};
+			};
+			buildConfigurationList = 300783632DC0395300A972C0 /* Build configuration list for PBXProject "Salatuk Pro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ar,
+				Base,
+			);
+			mainGroup = 3007835F2DC0395300A972C0;
+			packageReferences = (
+			);
+			productRefGroup = 300783692DC0395300A972C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				301888812DF4C734004540A2 /* Salatuk Pro */,
+				301888902DF4C736004540A2 /* Salatuk ProTests */,
+				3018889A2DF4C737004540A2 /* Salatuk ProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		301888802DF4C734004540A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301888D22DF4C87F004540A2 /* Preview Assets.xcassets in Resources */,
+				301888C12DF4C83E004540A2 /* entitlements.plist in Resources */,
+				301888CE2DF4C869004540A2 /* click.mp3 in Resources */,
+				307461882E036D1300021EDB /* Localizable.strings in Resources */,
+				301888D12DF4C874004540A2 /* Assets.xcassets in Resources */,
+				301888CD2DF4C867004540A2 /* azan.m4a in Resources */,
+				301888AD2DF4C7ED004540A2 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3018888F2DF4C736004540A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301888D82DF4C8E0004540A2 /* Salatuk ProTests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301888992DF4C737004540A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301888D92DF4C8E2004540A2 /* Salatuk ProUITests.xctest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3018887E2DF4C734004540A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301888CA2DF4C85C004540A2 /* CalculationParameters.swift in Sources */,
+				301888BF2DF4C838004540A2 /* SolarCoordinates.swift in Sources */,
+				301888BB2DF4C82A004540A2 /* PrayerTimes.swift in Sources */,
+				301888B62DF4C80D004540A2 /* ContentView.swift in Sources */,
+				301888CB2DF4C85E004540A2 /* Coordinates.swift in Sources */,
+				301888C02DF4C83B004540A2 /* Astronomical.swift in Sources */,
+				301888C52DF4C84E004540A2 /* Rouding.swift in Sources */,
+				301888BE2DF4C835004540A2 /* SolarTime.swift in Sources */,
+				301888B02DF4C7FB004540A2 /* adkarsl1.swift in Sources */,
+				301888C42DF4C84B004540A2 /* CalculationMethod.swift in Sources */,
+				307F03612E021288003962EB /* DhikrDetailView.swift in Sources */,
+				301888B52DF4C809004540A2 /* DhikrType.swift in Sources */,
+				301888D02DF4C870004540A2 /* Minute.swift in Sources */,
+				301888AE2DF4C7F1004540A2 /* MosqueMapView.swift in Sources */,
+				301888B32DF4C804004540A2 /* ZakatCalculatorView.swift in Sources */,
+				301888B22DF4C801004540A2 /* GpsBoslaView.swift in Sources */,
+				301888BA2DF4C827004540A2 /* AdhanObjc.swift in Sources */,
+				301888C62DF4C851004540A2 /* HighLatitudeRule.swift in Sources */,
+				301888C32DF4C846004540A2 /* MathUtilities.swift in Sources */,
+				301888BC2DF4C82D004540A2 /* Qibla.swift in Sources */,
+				301888B72DF4C818004540A2 /* CardView.swift in Sources */,
+				301888C22DF4C844004540A2 /* DateUtilities.swift in Sources */,
+				301888B92DF4C81F004540A2 /* My App.swift in Sources */,
+				301888C82DF4C856004540A2 /* Madhab.swift in Sources */,
+				301888CC2DF4C861004540A2 /* Shafaq.swift in Sources */,
+				301888CF2DF4C86E004540A2 /* Angle.swift in Sources */,
+				301888B12DF4C7FE004540A2 /* adkarsl2.swift in Sources */,
+				301888C92DF4C859004540A2 /* Prayer.swift in Sources */,
+				301888BD2DF4C82F004540A2 /* SunnahTimes.swift in Sources */,
+				301888C72DF4C853004540A2 /* PrayerAdjustment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3018888D2DF4C736004540A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301889242DF4DA92004540A2 /* Salatuk_ProTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		301888972DF4C737004540A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301889222DF4DA87004540A2 /* Salatuk_ProUITestsLaunchTests.swift in Sources */,
+				301889232DF4DA8C004540A2 /* Salatuk_ProUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		301888932DF4C736004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301888812DF4C734004540A2 /* Salatuk Pro */;
+			targetProxy = 301888922DF4C736004540A2 /* PBXContainerItemProxy */;
+		};
+		3018889D2DF4C737004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 301888812DF4C734004540A2 /* Salatuk Pro */;
+			targetProxy = 3018889C2DF4C737004540A2 /* PBXContainerItemProxy */;
+		};
+		301888E32DF4CEAE004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888E22DF4CEAE004540A2 /* FirebaseAnalytics */;
+		};
+		301888E52DF4CF1E004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888E42DF4CF1E004540A2 /* FirebaseAnalyticsOnDeviceConversion */;
+		};
+		301888E92DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888E82DF4CF36004540A2 /* FirebaseAnalyticsWithoutAdIdSupport */;
+		};
+		301888EB2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888EA2DF4CF36004540A2 /* FirebaseAppCheck */;
+		};
+		301888ED2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888EC2DF4CF36004540A2 /* FirebaseAppDistribution-Beta */;
+		};
+		301888EF2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888EE2DF4CF36004540A2 /* FirebaseAuth */;
+		};
+		301888F12DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888F02DF4CF36004540A2 /* FirebaseAuthCombine-Community */;
+		};
+		301888F32DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888F22DF4CF36004540A2 /* FirebaseCrashlytics */;
+		};
+		301888F52DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888F42DF4CF36004540A2 /* FirebaseDatabase */;
+		};
+		301888F72DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888F62DF4CF36004540A2 /* FirebaseDatabaseSwift */;
+		};
+		301888F92DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888F82DF4CF36004540A2 /* FirebaseDynamicLinks */;
+		};
+		301888FB2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888FA2DF4CF36004540A2 /* FirebaseFirestore */;
+		};
+		301888FD2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888FC2DF4CF36004540A2 /* FirebaseFirestoreCombine-Community */;
+		};
+		301888FF2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301888FE2DF4CF36004540A2 /* FirebaseFirestoreSwift */;
+		};
+		301889012DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889002DF4CF36004540A2 /* FirebaseFunctions */;
+		};
+		301889032DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889022DF4CF36004540A2 /* FirebaseFunctionsCombine-Community */;
+		};
+		301889052DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889042DF4CF36004540A2 /* FirebaseInAppMessaging-Beta */;
+		};
+		301889072DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889062DF4CF36004540A2 /* FirebaseInAppMessagingSwift-Beta */;
+		};
+		301889092DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889082DF4CF36004540A2 /* FirebaseInstallations */;
+		};
+		3018890B2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3018890A2DF4CF36004540A2 /* FirebaseMLModelDownloader */;
+		};
+		3018890D2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3018890C2DF4CF36004540A2 /* FirebaseMessaging */;
+		};
+		3018890F2DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 3018890E2DF4CF36004540A2 /* FirebasePerformance */;
+		};
+		301889112DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889102DF4CF36004540A2 /* FirebaseRemoteConfig */;
+		};
+		301889132DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889122DF4CF36004540A2 /* FirebaseRemoteConfigSwift */;
+		};
+		301889152DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889142DF4CF36004540A2 /* FirebaseStorage */;
+		};
+		301889172DF4CF36004540A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 301889162DF4CF36004540A2 /* FirebaseStorageCombine-Community */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3074618A2E036D1300021EDB /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				307461892E036D1300021EDB /* ar */,
+				3074618B2E036D2000021EDB /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3007838A2DC0395500A972C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_EXPORT_SUPPORTED = YES;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFCopyLocalizedString,
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos16.1;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3007838B2DC0395500A972C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LOCALIZATION_EXPORT_SUPPORTED = YES;
+				LOCALIZED_STRING_MACRO_NAMES = (
+					NSLocalizedString,
+					CFCopyLocalizedString,
+				);
+				LOCALIZED_STRING_SWIFTUI_SUPPORT = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos16.1;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		301888A42DF4C737004540A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salatuk Pro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Salatuk-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salatuk Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "نحتاج موقعك لحساب اتجاه القبلة دائماً، حتى في الخلفية";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نحتاج موقعك لحساب اتجاه القبلة أثناء استخدام التطبيق";
+				INFOPLIST_KEY_NSMotionUsageDescription = "يُستخدم هذا التطبيق لقياس الحركة بدقة من أجل تحسين تجربة الملاحة وعرض المسار.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = salatuk.t4c.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		301888A52DF4C737004540A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALLOW_TARGET_PLATFORM_SPECIALIZATION = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_INFOPLIST_LOCALIZATIONS = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Salatuk Pro/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Salatuk-Pro-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Salatuk Pro";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.weather";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "نحتاج موقعك لحساب اتجاه القبلة دائماً، حتى في الخلفية";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "نحتاج موقعك لحساب اتجاه القبلة أثناء استخدام التطبيق";
+				INFOPLIST_KEY_NSMotionUsageDescription = "يُستخدم هذا التطبيق لقياس الحركة بدقة من أجل تحسين تجربة الملاحة وعرض المسار.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "$(OTHER_CFLAGS)";
+				PRODUCT_BUNDLE_IDENTIFIER = salatuk.t4c.com;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		301888A72DF4C737004540A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salatuk.t4c.com.Salatuk-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salatuk Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salatuk Pro";
+			};
+			name = Debug;
+		};
+		301888A82DF4C737004540A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salatuk.t4c.com.Salatuk-ProTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Salatuk Pro.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Salatuk Pro";
+			};
+			name = Release;
+		};
+		301888AA2DF4C737004540A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salatuk.t4c.com.Salatuk-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salatuk Pro";
+			};
+			name = Debug;
+		};
+		301888AB2DF4C737004540A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salatuk.t4c.com.Salatuk-ProUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Salatuk Pro";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300783632DC0395300A972C0 /* Build configuration list for PBXProject "Salatuk Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3007838A2DC0395500A972C0 /* Debug */,
+				3007838B2DC0395500A972C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301888A32DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk Pro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301888A42DF4C737004540A2 /* Debug */,
+				301888A52DF4C737004540A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301888A62DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk ProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301888A72DF4C737004540A2 /* Debug */,
+				301888A82DF4C737004540A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		301888A92DF4C737004540A2 /* Build configuration list for PBXNativeTarget "Salatuk ProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				301888AA2DF4C737004540A2 /* Debug */,
+				301888AB2DF4C737004540A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		301888E22DF4CEAE004540A2 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		301888E42DF4CF1E004540A2 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		301888E82DF4CF36004540A2 /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		301888EA2DF4CF36004540A2 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		301888EC2DF4CF36004540A2 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		301888EE2DF4CF36004540A2 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		301888F02DF4CF36004540A2 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		301888F22DF4CF36004540A2 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		301888F42DF4CF36004540A2 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		301888F62DF4CF36004540A2 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		301888F82DF4CF36004540A2 /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDynamicLinks;
+		};
+		301888FA2DF4CF36004540A2 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		301888FC2DF4CF36004540A2 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		301888FE2DF4CF36004540A2 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		301889002DF4CF36004540A2 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		301889022DF4CF36004540A2 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		301889042DF4CF36004540A2 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		301889062DF4CF36004540A2 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		301889082DF4CF36004540A2 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		3018890A2DF4CF36004540A2 /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		3018890C2DF4CF36004540A2 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		3018890E2DF4CF36004540A2 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		301889102DF4CF36004540A2 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		301889122DF4CF36004540A2 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		301889142DF4CF36004540A2 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		301889162DF4CF36004540A2 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30B38E372DDF9A51006276E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 300783602DC0395300A972C0 /* Project object */;
+}
