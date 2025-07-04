@@ -1778,26 +1778,26 @@ Spacer()
         }
     }
     HStack(spacing: 14) {
-        
-        NavigationLink(destination: AlzakeerMenuView()) {
+
+        NavigationLink(destination: QuranHomeView()) {
             HStack(spacing: 12) {
-                Image("alzakeerIcon")
+                Image(systemName: "book")
                     .resizable()
                     .scaledToFit()
                     .frame(width: 50, height: 50)
                     .background(Color.white.opacity(0.2))
-    .clipShape(Circle())
-    .overlay(
-        Circle()
-            .stroke(Color.gray, lineWidth: 2)
-    )
-    .padding(.leading, 8)
-                
-                Text("جميع الأقسام")
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle()
+                            .stroke(Color.gray, lineWidth: 2)
+                    )
+                    .padding(.leading, 8)
+
+                Text(LocalizedStringKey("quran.title"))
                     .font(.system(size: 15))
                     .foregroundColor(.white)
                     .padding(.leading, 8)
-                
+
                 Spacer()
             }
             .padding(0)
@@ -1808,7 +1808,37 @@ Spacer()
                     .strokeBorder(Color.slateGray, lineWidth: 2)
             )
         }
-        
+
+        NavigationLink(destination: AlzakeerMenuView()) {
+            HStack(spacing: 12) {
+                Image("alzakeerIcon")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 50, height: 50)
+                    .background(Color.white.opacity(0.2))
+                    .clipShape(Circle())
+                    .overlay(
+                        Circle()
+                            .stroke(Color.gray, lineWidth: 2)
+                    )
+                    .padding(.leading, 8)
+
+                Text("جميع الأقسام")
+                    .font(.system(size: 15))
+                    .foregroundColor(.white)
+                    .padding(.leading, 8)
+
+                Spacer()
+            }
+            .padding(0)
+            .frame(width: 180, height: 60)
+            .background(Color.clear)
+            .overlay(
+                RoundedRectangle(cornerRadius: 14)
+                    .strokeBorder(Color.slateGray, lineWidth: 2)
+            )
+        }
+
 
     }
 
